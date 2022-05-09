@@ -1,0 +1,36 @@
+.product-btn{
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.product-img{
+  border-radius: 7px;
+}
+.bx-cloud-download{
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+.product-name{
+  font-weight: 600;
+  color: #777;
+}
+.product-desc{
+  font-weight: 600;
+  font-size: 22px;
+}
+.product-size{
+  color: #777;
+}
+.line{
+  width: 300px;
+  height: 1px;
+  background-color: #ccc;
+  display: inline-block;
+}
+.bx-cog{
+  position: relative;
+  top: 3px;
+}

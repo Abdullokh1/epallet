@@ -1,0 +1,7 @@
+.nav-link{
+  color: #777;
+}
+.nav-link:hover{
+  -webkit-text-stroke: 1px black;
+
+}
