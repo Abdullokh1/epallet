@@ -15,8 +15,8 @@ class PriceCount extends React.Component{
 
   Increment = () => {
     this.setState({ count: this.state.count += 1 });
-    this.setState({price: this.state.price * 2})
-    this.setState({secondPrice: this.state.secondPrice * 2})
+    this.setState({price: this.state.price + 32 })
+    this.setState({secondPrice: this.state.secondPrice + 712})
   };
 
 
@@ -30,8 +30,8 @@ class PriceCount extends React.Component{
     else{
       this.setState({count: (this.state.count - 1)})
     }
-    this.setState({ price: this.state.price - this.state.price / 2 });
-    this.setState({ secondPrice: this.state.secondPrice - this.state.secondPrice / 2 });
+    this.setState({ price: this.state.price -  32 });
+    this.setState({ secondPrice: this.state.secondPrice -  712 });
   };
 
   render(){
