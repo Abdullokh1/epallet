@@ -7,7 +7,7 @@ class PriceCount extends React.Component{
     super(props)
 
     this.state = {
-      count: 0,
+      count: 1,
       price: 32,
       secondPrice: 712
     }
@@ -21,8 +21,8 @@ class PriceCount extends React.Component{
 
 
   Decrement = () => {
-    if(this.state.count == 0){
-     this.setState({count: (this.state.count = 0)})
+    if(this.state.count == 1){
+     this.setState({count: (this.state.count = 1)})
      this.setState({price: this.state.price = 32*2})
      this.setState({secondPrice: this.state.secondPrice = 712 * 2})
 
